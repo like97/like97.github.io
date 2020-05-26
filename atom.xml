@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://like97.github.io</id>
     <title>Gridea</title>
-    <updated>2020-05-26T13:26:17.277Z</updated>
+    <updated>2020-05-26T14:27:56.883Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://like97.github.io"/>
     <link rel="self" href="https://like97.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://like97.github.io/images/avatar.png</logo>
     <icon>https://like97.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[马龙的全满贯之路]]></title>
+        <id>https://like97.github.io/post/ma-long-de-quan-man-guan-zhi-lu/</id>
+        <link href="https://like97.github.io/post/ma-long-de-quan-man-guan-zhi-lu/">
+        </link>
+        <updated>2020-05-26T14:10:38.000Z</updated>
+        <content type="html"><![CDATA[<p>马龙</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[测试类]]></title>
+        <id>https://like97.github.io/post/ce-shi-lei/</id>
+        <link href="https://like97.github.io/post/ce-shi-lei/">
+        </link>
+        <updated>2020-05-26T13:32:14.000Z</updated>
+        <content type="html"><![CDATA[<p>测试</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://like97.github.io/post/hello-gridea/</id>

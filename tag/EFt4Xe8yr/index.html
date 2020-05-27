@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="">
-<meta name="theme-color" content="#4dabf7">
-<title>逐梦者</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1590584242949">
+<meta name="theme-color" content="#ff922b">
+<title>逐梦者的博客</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1590589952849">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -58,7 +58,7 @@
         <div class="site-title">
           
             <a href="/" class="brand">
-              <span>逐梦者</span>
+              <span>逐梦者的博客</span>
             </a>  
           
         </div>
@@ -126,7 +126,7 @@
               <li class="nav-item ">
                 <a href="/friends/" target="_self">
                   
-                    <i class="fa fa-address-book"></i> 友情链接
+                    <i class="fa fa-address-book"></i> 友链
                   
                 </a>
               </li>
@@ -190,13 +190,13 @@
     </div>
     <div class="sidebar-item-box">
       <a href="">
-        <span class="site-item-stat-count">1</span>
+        <span class="site-item-stat-count">2</span>
         <span class="site-item-stat-name language" data-lan="category">分类</span>
       </a>
     </div>
     <div class="sidebar-item-box">
       <a href="/tags/">
-        <span class="site-item-stat-count">1</span>
+        <span class="site-item-stat-count">2</span>
         <span class="site-item-stat-name language" data-lan="tag">标签</span>
       </a>
     </div>
@@ -234,6 +234,8 @@
           <small class="language" data-lan="tag">标签</small>
         </h2>
       </div>
+      
+      
       
       
       
@@ -282,48 +284,6 @@
   </div>
   
   
-  
-    
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-  <div class="aplayer" id="aplayer"></div>
-  <script>
-  let musics = JSON.parse('[{"author":"","cover":"","lrc":"","musicLink":"","musicName":""}]');
-  let mediaMusic = [];
-  for (let i = 0; i < musics.length; i++) {
-    let item = musics[i];
-    mediaMusic.push({
-      name: item.musicName,
-      artist: item.author,
-      url: item.musicLink,
-      lrc: item.lrc,
-      cover: item.cover
-    });
-  }
-
-  const ap = new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      lrcType: 3,
-      listFolded: false,
-      listMaxHeight: 90,
-      audio: mediaMusic
-  });
-  window.addEventListener('load', function() {
-    let postBody = document.querySelector('#post_body');
-    let hs = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
-    postBody && hs.forEach(h => {
-      let helems = postBody.querySelectorAll(h);
-      if (helems.length > 0) {
-        helems.forEach(elem => {
-          elem.id = encodeURI(elem.id);
-        })
-      }
-    })
-  })
-  </script>
-
-
   
 </div>
 <script>
@@ -497,6 +457,7 @@
       <div class="item">
         <a class="result-title" style="opacity: 0;" href="https://like97.github.io/post/ma-long-de-quan-man-guan-zhi-lu/"" data-c="
           &lt;p&gt;  今天是我第一次写博客，写点什么呢？想来想去，我觉得可以写我喜欢的体育明星——马龙。有人可能会问，我为什么喜欢马龙呢？原因是多方面的，他技术完美，心里素质强大。但是，最打动我的一点是：马龙的夺冠经历。马龙向我们证明了自己的努力终将会看到回报。下面我来给大家说一说马龙的全满贯之路。&lt;/p&gt;
+&lt;!-- more --&gt;
 &lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://like97.github.io/post-images/1590578070704.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
 &lt;p&gt;  马龙，1988年10月20日出生于辽宁省鞍山市，中国男子乒乓球队运动员，乒乓球奥运冠军。2014年任中国乒乓男队队长，乒坛史上第10位大满贯选手 ，首位集奥运会、世锦赛、世界杯、亚运会、亚锦赛、亚洲杯、巡回赛总决赛、全运会单打冠军于一身的超级全满贯男子选手。&lt;/p&gt;
 &lt;p&gt;  马龙虽然取得了非常高的成就，但是，他的夺冠之路非常坎坷，经历了非常多的挫折。马龙，在2008年北京奥运会的时候就获得了去现场观看比赛的机会。这让他可以感受大赛的氛围，提升自身能力。马龙在伦敦奥运会前曾保持了560天内战外战的51连胜，但是，却在2011年鹿特丹世乒赛的半决赛上输给王浩，遗憾错失伦敦奥运会的单打资格。马龙只参加了团体赛，拿到了属于自己的第一个团体赛奥运冠军。&lt;/p&gt;
@@ -806,6 +767,13 @@
 
 </script>
 <script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 200
+  });
+</script>
 
 
 <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
